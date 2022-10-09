@@ -7,6 +7,7 @@ import 'package:wap_library/pages/post/rental_page.dart';
 import 'package:wap_library/pages/post/reservation_page.dart';
 import 'package:wap_library/pages/post/return_page.dart';
 
+//stateful -> 페이지 번호 불러오기.
 class DetailPage extends StatefulWidget {
   const DetailPage({Key? key}) : super(key: key);
   @override

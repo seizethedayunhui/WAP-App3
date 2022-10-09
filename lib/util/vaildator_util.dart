@@ -1,5 +1,7 @@
+//입력받는 값 조건
 import 'package:validators/validators.dart';
 
+//null 값이면 in 함수 느낌표나 물음표
 Function validateStudentNumber() {
   return (String? value) {
     if (value!.isEmpty)

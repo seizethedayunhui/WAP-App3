@@ -1,3 +1,4 @@
+//둥근 텍스트 폼
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -33,7 +34,7 @@ class CustomTextFormField extends StatelessWidget {
           ? <TextInputFormatter>[FilteringTextInputFormatter.digitsOnly]
           : <TextInputFormatter>[],
       decoration: InputDecoration(
-        hintText: "Enter $hint",
+        hintText: " $hint",
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(20),
         ),
@@ -50,6 +51,7 @@ class CustomTextFormField extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
           borderSide: BorderSide(
             color: Colors.red,
+
           ),
         ),
       ),

@@ -1,4 +1,5 @@
 
+// 디바이스 사이즈
 import 'package:flutter/material.dart';
 
 double getScreenWidth(BuildContext context){

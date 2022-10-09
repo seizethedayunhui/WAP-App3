@@ -41,6 +41,9 @@ dependencies:
   bottom_navy_bar: ^6.0.0
   animations: ^2.0.5
   comment_box: ^0.0.17
+  http_parser: ^4.0.1
+  image_picker: ^0.8.6
+  dio: ^4.0.6
 
 dev_dependencies:
   flutter_test:
@@ -94,3 +97,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+...
+
+
+

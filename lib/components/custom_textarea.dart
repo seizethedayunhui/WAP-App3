@@ -1,3 +1,4 @@
+//네모 텍스트 폼
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -22,7 +23,7 @@ class CustomTextArea extends StatelessWidget {
       maxLines: 20,
       validator: funValidator,
       decoration: InputDecoration(
-        hintText: "Enter $hint",
+        hintText: " $hint",
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(5),
         ),
